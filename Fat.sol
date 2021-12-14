@@ -1356,6 +1356,7 @@ contract FAT is ERC20, Ownable {
     address public burnAddress;
     
     uint256 public maxBuyTranscationAmount = 1000000000 * (10**18);
+    uint256 public maxSellTransactionAmount = 1000000000 * (10**18);
     uint256 public swapTokensAtAmount = 1000000000 * (10**18);
     uint256 public _maxWalletToken = 2000000000 * (10**18); 
 
